@@ -43,7 +43,7 @@ def find_the_cheese(aar)
   aar.include?(cheese_types)
  # i = 0 
   #while i < cheese_types.length
-  result  = aar.find do |x| x == cheese_types[x]
+  result  = aar.find do |x| x == cheese_types
  binding.pry
 end
  
