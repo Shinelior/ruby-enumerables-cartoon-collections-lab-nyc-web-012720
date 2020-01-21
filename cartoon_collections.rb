@@ -41,7 +41,7 @@ def find_the_cheese(aar)
   #aar = ["potato", "gouda", "camembert"]
   cheese_types = ["cheddar", "gouda", "camembert"]
   aar.include?(cheese_types)
-  aar.find do |x| x==cheese_types 
+  result  = aar.find do |x| x==cheese_types 
   binding.pry
 end
 end
