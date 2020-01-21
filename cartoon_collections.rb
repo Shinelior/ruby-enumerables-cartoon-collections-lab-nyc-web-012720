@@ -48,7 +48,7 @@ def find_the_cheese(aar)
 end
   binding.pry
 end
-end
+
 
  #chee = aar.find_all do |x|   x == "cheddar" || x == "gouda" || # x == "camembert" end
  #chee = aar.find_all do |x| cheese_types end
