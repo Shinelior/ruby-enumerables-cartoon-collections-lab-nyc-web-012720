@@ -46,7 +46,7 @@ def find_the_cheese(aar)
   result  = aar.find do |x| x == cheese_types[x]
 
 end
-  binding.pry
+ 
 end
 
 
