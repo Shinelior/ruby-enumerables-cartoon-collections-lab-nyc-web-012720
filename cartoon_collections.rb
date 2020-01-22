@@ -43,7 +43,7 @@ def find_the_cheese(aar)
   
  
  aar.find do |snak| 
- snak == aar.include?(cheese_types) 
+  aar.include?() 
 end
 # binding.pry
 
