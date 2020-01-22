@@ -36,18 +36,17 @@ def long_planeteer_calls(arra)
   # Your code here
 end
 
-#aar = ["potato", "gouda", "camembert"]
+
 def find_the_cheese(aar)
-  #aar = ["potato", "gouda", "camembert"]
+ 
   cheese_types = ["cheddar", "gouda", "camembert"]
   aar.include?(cheese_types)
- i = 0 
-  while i < cheese_types.length
-  result  = aar.find do |x|  x == cheese_types[i]
- i += 1
+ 
+   aar.find do |x|  x == cheese_types
+ 
 end
 # binding.pry
-end
+
  
 end
 
